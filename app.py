@@ -15,3 +15,6 @@ def fetch_user_profile(user_input):
 def execute_system_cmd(user_cmd):
     # 3. Command Injection / Unsafe Execution
     os.system(user_cmd)
+
+
+    /// 4. Insecure Deserialization
